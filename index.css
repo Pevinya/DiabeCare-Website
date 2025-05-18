@@ -54,15 +54,15 @@
 }
 
 .section-2 {
-  background-color: #240032;
-}
+  background-color: #044a5f; 
+} /* intro*/
 
 .section-3 {
   background-color: #2a2e32;
 }
 
 .accordion-header-section {
-  background-color: #240032;
+  background-color: #107a9b;
   color: #ffffff;
 }
 
@@ -106,14 +106,14 @@
 
 /* navar color */
 .navbar-custom {
-  background-color: #4b0158;
+  background-color: #107a9b;
 }
 .navbar-custom .navbar-nav .nav-link,
 .navbar-custom .navbar-brand {
   color: white;
 }
 .navbar-custom .navbar-nav .nav-link.active {
-  color: #d3a0ff; /* Light purple for active link */
+  color: #a8dbeb; /* Light purple for active link */
 }
 .navbar-custom .navbar-nav .nav-link:hover,
 .navbar-custom .navbar-brand:hover {
@@ -171,7 +171,7 @@
 }
 
 #Home {
-  background-image: url('Images/galaxy_home.jpeg'); /* Path to your background image */
+  background-image: url('Images/diabe_home.jpg'); /* Path to your background image */
   background-size: cover; /* Ensure the image covers the section */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent image repetition */
