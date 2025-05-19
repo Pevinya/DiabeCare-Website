@@ -9,7 +9,7 @@
 }
 
 .section-body-3 {
-  color: #bf77f6;
+  color: #ffffff; /*fonts*/
 }
 
 .section-top-bottom{
@@ -24,7 +24,7 @@
 
 .accordion-row{
   width: 85vw;
-  background-color: #171616;
+  background-color: #1B263B;
 }
 
 .contactus{
@@ -125,22 +125,46 @@
 }
 
 #Domain {
-  background-image: url('Images/galaxy_domain.jpg'); /* Add your image URL */
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  color: blanchedalmond; /* Keeps the text color as you want */
-  padding: 50px 0; /* Adds some padding to the top and bottom */
+  position: relative;
+  color: blanchedalmond;
+  padding: 50px 0;
+  overflow: hidden;
+  z-index: 1;
 }
 
-.section-3 {
-  background-image: url('Images/Home.jpeg'); /* Replace with your image path */
-  background-size: cover; /* Ensures the image covers the entire section */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  color: blanchedalmond; /* Ensures text color is legible over the background */
-  padding: 50px 0; /* Adds padding to create space around content */
+#Domain::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('Images/domain.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); /* Adjust the blur amount */
+  z-index: -1;
 }
+
+
+.section-3 {
+  position: relative;
+  color: blanchedalmond;
+  padding: 60px 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-3::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('Images/diabe_whatDoWeProvide.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px); /* You can adjust the blur amount */
+  z-index: -1;
+}
+
 
 #Tools {
   background-image: url('Images/galaxy_tools.avif'); /* Replace with the path to your image */
@@ -193,7 +217,7 @@
 
 /* Style for active accordion item */
 .accordion-button:not(.collapsed) {
-  background-color: #d3a0ff; /* Light purple color */
+  background-color: #9fc6e6; /* Light blue color */
   color: #000; /* Change text color if needed */
 }
 
