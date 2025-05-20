@@ -11,7 +11,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- Import Fontawesome -->
   <script src="https://kit.fontawesome.com/ee2c6a13c7.js" crossorigin="anonymous"></script>
-  <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+  <link rel="icon" type="image/x-icon" href="./Images/logo2.png">
   <link rel="stylesheet" href="Footer.css" />
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="Milestone.css" />
@@ -62,16 +62,16 @@
       </div>
     </div>
   </nav>
-  
+
   <script>
     // Get all the nav links
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-  
+
     // Function to remove active class from all nav links
     function removeActiveClass() {
       navLinks.forEach(nav => nav.classList.remove('active'));
     }
-  
+
     // Add click event listener to each link
     navLinks.forEach(link => {
       link.addEventListener('click', function () {
@@ -81,7 +81,7 @@
         this.classList.add('active');
       });
     });
-  
+
     // Function to add active class based on scroll position
     function setActiveLink() {
       const sections = document.querySelectorAll('section'); // Select all sections
@@ -95,47 +95,51 @@
         }
       });
     }
-  
+
     // Add scroll event listener
     window.addEventListener('scroll', setActiveLink);
   </script>
-  
 
-<section id="Home">
-  <div class="section-body container">
-    <div class="row h-100 justify-content-center align-items-center">
-      <div class="text-center">
-        <img 
-          style="margin-top: 3px; width: 400px;" 
-          src="./Images/diabe-care-logo.png" 
-          class="img-fluid rounded" 
-          alt="Diabetes Logo"
-        />
-        <p class="display-6" style="margin-top: 50px; color: rgb(6, 5, 102); font-weight: bold; font-size: 30px;">
-          INTEGRATED FRAMEWORK FOR ENHANCED DIABETIC: <br /> PATIENT CARE WITH PREDICTIVE ANALYTICS 
-        </p>
+
+  <section id="Home">
+    <div class="section-body container">
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="text-center">
+          <img style="margin-top: 3px; width: 400px;" src="./Images/diabe-care-logo.png" class="img-fluid rounded"
+            alt="Diabetes Logo" />
+          <p class="display-6" style="margin-top: 50px; color: rgb(6, 5, 102); font-weight: bold; font-size: 30px;">
+            INTEGRATED FRAMEWORK FOR ENHANCED DIABETIC: <br /> PATIENT CARE WITH PREDICTIVE ANALYTICS
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 
 
 
-<!-- Section Two Component -->
-<section id="Introduction" class="section-body section-2 h-100">
-  <header class="container h-100">
-    <div class="d-flex align-items-center justify-content-center h-100">
-      <div class="d-flex flex-column text-center">
-        <p class="display-2 fw-bolder title-top-bottom" style="color: #a8dbeb;">Who are DiabeCare ?</p>
-        <p class="custom-display-6" style="color: #ffffff; font-size: 1.30rem;">
-          Welcome to Diabe Care , a passionate community of researchers, and technology enthusiasts dedicated to transforming the management of diabetes. Our mission is to enhance the quality of life for diabetic patients through innovative, data-driven solutions and personalized healthcare strategies. We are focusing on areas such as blood glucose monitoring and medication tracking, AI-powered food item identification and calorie estimation, AI driven solution foot risks and activity recommendations, we aim to bridge the gap between medical science and advanced technology. Whether through collaborative research, cutting-edge machine learning applications, or patient-centered design, our goal is to revolutionize diabetic care and empower individuals to take control of their health. Join us in building a healthier future and making impactful strides in the field of diabetes management.
-        </p>
+  <!-- Section Two Component -->
+  <section id="Introduction" class="section-body section-2 h-100">
+    <header class="container h-100">
+      <div class="d-flex align-items-center justify-content-center h-100">
+        <div class="d-flex flex-column text-center">
+          <p class="display-2 fw-bolder title-top-bottom" style="color: #a8dbeb;">Who are DiabeCare ?</p>
+          <p class="custom-display-6" style="color: #ffffff; font-size: 1.30rem;">
+            Welcome to Diabe Care , a passionate community of researchers, and technology enthusiasts dedicated to
+            transforming the management of diabetes. Our mission is to enhance the quality of life for diabetic patients
+            through innovative, data-driven solutions and personalized healthcare strategies. We are focusing on areas
+            such as blood glucose monitoring and medication tracking, AI-powered food item identification and calorie
+            estimation, AI driven solution foot risks and activity recommendations, we aim to bridge the gap between
+            medical science and advanced technology. Whether through collaborative research, cutting-edge machine
+            learning applications, or patient-centered design, our goal is to revolutionize diabetic care and empower
+            individuals to take control of their health. Join us in building a healthier future and making impactful
+            strides in the field of diabetes management.
+          </p>
+        </div>
       </div>
-    </div>
-  </header>
-</section>
+    </header>
+  </section>
 
 
 
@@ -144,7 +148,7 @@
     <header class="container">
       <div class="d-flex align-items-center justify-content-center">
         <div class="d-flex flex-column text-center">
-          <p class="display-3 fw-bolder title-top-bottom" >Our Domain</p>
+          <p class="display-3 fw-bolder title-top-bottom">Our Domain</p>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item section-2 accordion-section accordion-row">
               <h2 class="accordion-header accordion-row" id="flush-headingOne">
@@ -157,9 +161,19 @@
               <div id="flush-collapseOne" class="accordion-collapse collapse accordion-row"
                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body accordion-row text-start"> <!-- Background -->
-                  <i class="fa-solid fa-bars-staggered"></i> &nbsp;Diabetes management has evolved with advancements in predictive analytics, real-time monitoring, and digital healthcare tools. Traditional methods like manual record-keeping and periodic check-ups often fall short in providing continuous care, increasing the risk of complications such as diabetic foot issues. DiabeCare is a smart, centralized mobile application designed to overcome these limitations by offering real-time insights, automated alerts, and personalized recommendations. It supports users by tracking blood glucose levels, monitoring physical activity, and assessing foot complication risks using machine learning. Additionally, it features AI-powered food recognition and calorie estimation to provide tailored dietary advice, while also monitoring vital health metrics such as blood pressure, heart rate, and BMI. DiabeCare presents a holistic and innovative approach to managing Type 2 diabetes and prediabetes, promoting early intervention and improved patient outcomes.
+                  <i class="fa-solid fa-bars-staggered"></i> &nbsp;Diabetes management has evolved with advancements in
+                  predictive analytics, real-time monitoring, and digital healthcare tools. Traditional methods like
+                  manual record-keeping and periodic check-ups often fall short in providing continuous care, increasing
+                  the risk of complications such as diabetic foot issues. DiabeCare is a smart, centralized mobile
+                  application designed to overcome these limitations by offering real-time insights, automated alerts,
+                  and personalized recommendations. It supports users by tracking blood glucose levels, monitoring
+                  physical activity, and assessing foot complication risks using machine learning. Additionally, it
+                  features AI-powered food recognition and calorie estimation to provide tailored dietary advice, while
+                  also monitoring vital health metrics such as blood pressure, heart rate, and BMI. DiabeCare presents a
+                  holistic and innovative approach to managing Type 2 diabetes and prediabetes, promoting early
+                  intervention and improved patient outcomes.
 
-                  
+
                 </div>
               </div>
             </div>
@@ -174,7 +188,15 @@
               <div id="flush-collapseTwo" class="accordion-collapse collapse accordion-row"
                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body accordion-row text-start">
-                  <i class="fa-solid fa-bars-staggered"></i> &nbsp;While numerous mobile health applications support individual components of diabetes management—such as blood glucose tracking, dietary logging, or physical activity monitoring—most operate in isolation, lacking seamless integration of these critical functions. Furthermore, existing solutions often fail to incorporate real-time decision-making and machine learning models for personalized care adjustments. There is a pressing need for a unified, AI-powered system that holistically integrates dietary analysis, glucose level prediction, physical activity tracking, and diabetic complication risk assessment (e.g., foot ulcers) within a single platform. This gap limits the potential for truly personalized, preventive, and proactive diabetes management—especially in resource-constrained settings where access to continuous care is limited
+                  <i class="fa-solid fa-bars-staggered"></i> &nbsp;While numerous mobile health applications support
+                  individual components of diabetes management—such as blood glucose tracking, dietary logging, or
+                  physical activity monitoring—most operate in isolation, lacking seamless integration of these critical
+                  functions. Furthermore, existing solutions often fail to incorporate real-time decision-making and
+                  machine learning models for personalized care adjustments. There is a pressing need for a unified,
+                  AI-powered system that holistically integrates dietary analysis, glucose level prediction, physical
+                  activity tracking, and diabetic complication risk assessment (e.g., foot ulcers) within a single
+                  platform. This gap limits the potential for truly personalized, preventive, and proactive diabetes
+                  management—especially in resource-constrained settings where access to continuous care is limited
                 </div>
               </div>
             </div>
@@ -190,23 +212,26 @@
                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body accordion-row text-start">
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                 
+
 
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                  Food Identification & Calorie Estimation
-Manual food logging is error-prone and time-consuming, and most mobile apps lack accurate AI-based food recognition and calorie estimation tailored to culturally diverse diets.
+                    Food Identification & Calorie Estimation
+                    Manual food logging is error-prone and time-consuming, and most mobile apps lack accurate AI-based
+                    food recognition and calorie estimation tailored to culturally diverse diets.
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
                     Medication Adherence Tracking
-Diabetic patients often miss medications due to lack of reminders, poor integration with meal and activity schedules, and absence of intelligent tracking mechanisms in existing tools.
+                    Diabetic patients often miss medications due to lack of reminders, poor integration with meal and
+                    activity schedules, and absence of intelligent tracking mechanisms in existing tools.
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                  Physical Activity Recommendation
-Current activity trackers rarely provide personalized, real-time exercise recommendations based on blood glucose responses, which is essential for optimal diabetes management.
+                    Physical Activity Recommendation
+                    Current activity trackers rarely provide personalized, real-time exercise recommendations based on
+                    blood glucose responses, which is essential for optimal diabetes management.
                   </p>
                 </div>
               </div>
@@ -223,19 +248,25 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body accordion-row text-start">
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                   To develop an AI-powered food recognition system using image processing(Yolo V8 Model) and calorie estimation models that can identify culturally relevant meals and provide accurate nutritional insights.
+                    To develop an AI-powered food recognition system using image processing(Yolo V8 Model) and calorie
+                    estimation models that can identify culturally relevant meals and provide accurate nutritional
+                    insights.
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                   To implement an intelligent medication tracking module that monitors dosage, timing, and interactions with meals and physical activity, and provides timely alerts to improve adherence(SVC Model).
+                    To implement an intelligent medication tracking module that monitors dosage, timing, and
+                    interactions with meals and physical activity, and provides timely alerts to improve adherence(SVC
+                    Model).
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                   To create a personalized activity management system using machine learning algorithms (Random Forest) that analyzes health parameters and suggests real-time adjustments to exercise plans.
+                    To create a personalized activity management system using machine learning algorithms (Random
+                    Forest) that analyzes health parameters and suggests real-time adjustments to exercise plans.
 
                   </p>
                   <p><i class="fa-solid fa-bars-staggered"></i> &nbsp;
-                    To design and integrate a mobile-based foot ulcer detection model using deep learning (MobileNetV2) to classify foot conditions and assess risk levels for early intervention.
+                    To design and integrate a mobile-based foot ulcer detection model using deep learning (MobileNetV2)
+                    to classify foot conditions and assess risk levels for early intervention.
                   </p>
                 </div>
               </div>
@@ -553,7 +584,10 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <i class="fa-solid fa-server fa-2xl"></i>
                   <br /><br />
                   <p class="card-text">
-                    Automatically identify meals from real-world images using convolutional neural networks (CNNs) and estimate calorie content based on predefined nutritional datasets. This AI-powered system helps diabetic patients make informed dietary choices by offering accurate, culturally adapted calorie insights in real time.
+                    Automatically identify meals from real-world images using convolutional neural networks (CNNs) and
+                    estimate calorie content based on predefined nutritional datasets. This AI-powered system helps
+                    diabetic patients make informed dietary choices by offering accurate, culturally adapted calorie
+                    insights in real time.
                   </p>
                 </div>
               </div>
@@ -568,7 +602,9 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <i class="fa-sharp fa-solid fa-database fa-2xl"></i>
                   <br /><br />
                   <p class="card-text">
-                    Monitor and track medication intake schedules with AI-driven reminders and interaction analysis. The system detects irregularities in medication adherence and correlates dosage with blood glucose levels and meal timing to generate personalized medication alerts for better disease management.
+                    Monitor and track medication intake schedules with AI-driven reminders and interaction analysis. The
+                    system detects irregularities in medication adherence and correlates dosage with blood glucose
+                    levels and meal timing to generate personalized medication alerts for better disease management.
                   </p>
                 </div>
               </div>
@@ -583,7 +619,10 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <i class="fa-solid fa-brain fa-2xl"></i>
                   <br /><br />
                   <p class="card-text">
-                    Leverage machine learning models like Random Forest to analyze user-specific activity patterns, blood glucose data, and physiological indicators. The system dynamically recommends exercise routines, adjustments in intensity or duration, and warns against activities that may elevate health risks.
+                    Leverage machine learning models like Random Forest to analyze user-specific activity patterns,
+                    blood glucose data, and physiological indicators. The system dynamically recommends exercise
+                    routines, adjustments in intensity or duration, and warns against activities that may elevate health
+                    risks.
                   </p>
                 </div>
               </div>
@@ -598,7 +637,9 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <i class="fa-solid fa-tv fa-2xl"></i>
                   <br /><br />
                   <p class="card-text">
-                    Use maching learning techniques (e.g., MobileNetV2) to detect and categorize foot ulcers through image analysis. The model classifies severity levels and provides early alerts, helping prevent complications such as infections or amputations through timely medical intervention.
+                    Use maching learning techniques (e.g., MobileNetV2) to detect and categorize foot ulcers through
+                    image analysis. The model classifies severity levels and provides early alerts, helping prevent
+                    complications such as infections or amputations through timely medical intervention.
                   </p>
                 </div>
               </div>
@@ -616,25 +657,25 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
         <div class="d-flex flex-column text-center">
           <p class="display-2 fw-bolder title-top-bottom">Documents</p>
 
-<!--Project Registration Documents-->
-         <div class="row">
-          <p class="sub-heading-3">Project Registration Documents</p>
-          <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
-           <div class="card card-section">
-            <div class="card-body">
-            <h5 class="card-title">Topic Assessment
+          <!--Project Registration Documents-->
+          <div class="row">
+            <p class="sub-heading-3">Project Registration Documents</p>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Topic Assessment
 
-          </h5>
-          <br />
-          <i class="fa-solid fa-file-pdf fa-5x"></i>
-          <br /><br />
-          <a href="https://drive.google.com/file/d/1PzP7ngJqzP3PCSh0ZBdWHGqcxhKgYoOh/view?usp=drive_link"
-          target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
-        </div>
-      </div>
-    </div>
+                  </h5>
+                  <br />
+                  <i class="fa-solid fa-file-pdf fa-5x"></i>
+                  <br /><br />
+                  <a href="https://drive.google.com/file/d/1PzP7ngJqzP3PCSh0ZBdWHGqcxhKgYoOh/view?usp=drive_link"
+                    target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
+                </div>
+              </div>
+            </div>
 
-    </div>
+          </div>
 
           <!--Project Proposals-->
           <div class="row">
@@ -753,22 +794,22 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
             </div>
           </div>
 
-                    <!--Research Paper -->
-                    <div class="row">
-                      <p class="sub-heading-3">Research Paper</p>
-                      <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
-                        <div class="card card-section">
-                          <div class="card-body">
-                            <h5 class="card-title">Research Paper - Team</h5>
-                            <br />
-                            <i class="fa-solid fa-file-pdf fa-5x"></i>
-                            <br /><br />
-                            <a href="https://drive.google.com/file/d/1OYzyyWUFqIoIXdPb8qEKGExqP-n9MXnU/view?usp=drive_link"
-                              target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+          <!--Research Paper -->
+          <div class="row">
+            <p class="sub-heading-3">Research Paper</p>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Research Paper - Team</h5>
+                  <br />
+                  <i class="fa-solid fa-file-pdf fa-5x"></i>
+                  <br /><br />
+                  <a href="https://drive.google.com/file/d/1OYzyyWUFqIoIXdPb8qEKGExqP-n9MXnU/view?usp=drive_link"
+                    target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
                         <div class="card card-section">
                           <div class="card-body">
                             <h5 class="card-title">Research Paper - IT21361340</h5>
@@ -780,7 +821,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           </div>
                         </div>
                       </div> -->
-                      <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+            <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
                         <div class="card card-section">
                           <div class="card-body">
                             <h5 class="card-title">Research Paper - IT21925818</h5>
@@ -792,7 +833,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           </div>
                         </div>
                       </div> -->
-                      <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+            <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
                         <div class="card card-section">
                           <div class="card-body">
                             <h5 class="card-title">Research Paper - IT21487934</h5>
@@ -804,7 +845,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           </div>
                         </div>
                       </div> -->
-                    </div>
+          </div>
 
           <!--Final Reports-->
           <div class="row">
@@ -872,35 +913,35 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
           </div>
 
 
-                    <!--Check List Documents-->
-                    <div class="row">
-                      <p class="sub-heading-3">Check List Documents</p>
-                      <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
-                        <div class="card card-section">
-                          <div class="card-body">
-                            <h5 class="card-title">Check List Document 1</h5>
-                            <br />
-                            <i class="fa-solid fa-file-pdf fa-5x"></i>
-                            <br /><br />
-                            <a href="https://drive.google.com/file/d/1nbGWh6NNq2VFOGzIb1WrczP5RGjsh28X/view?usp=drive_link"
-                              target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
-                          </div>
-                        </div>
-                      </div>
-          
-                      <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
-                        <div class="card card-section">
-                          <div class="card-body">
-                            <h5 class="card-title">Check List Document 2</h5>
-                            <br />
-                            <i class="fa-solid fa-file-pdf fa-5x"></i>
-                            <br /><br />
-                            <a href="https://docs.google.com/spreadsheets/d/1G4F_IZn6tVGVE9K8ocMAqeMWMtPY6VMw/edit?usp=drive_link&ouid=103760078279795443953&rtpof=true&sd=true"
-                              target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+          <!--Check List Documents-->
+          <div class="row">
+            <p class="sub-heading-3">Check List Documents</p>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Check List Document 1</h5>
+                  <br />
+                  <i class="fa-solid fa-file-pdf fa-5x"></i>
+                  <br /><br />
+                  <a href="https://drive.google.com/file/d/1nbGWh6NNq2VFOGzIb1WrczP5RGjsh28X/view?usp=drive_link"
+                    target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Check List Document 2</h5>
+                  <br />
+                  <i class="fa-solid fa-file-pdf fa-5x"></i>
+                  <br /><br />
+                  <a href="https://docs.google.com/spreadsheets/d/1G4F_IZn6tVGVE9K8ocMAqeMWMtPY6VMw/edit?usp=drive_link&ouid=103760078279795443953&rtpof=true&sd=true"
+                    target="_blank"><button class="btn btn-light">DOWNLOAD</button></a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
                         <div class="card card-section">
                           <div class="card-body">
                             <h5 class="card-title">IT21925818</h5>
@@ -912,7 +953,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           </div>
                         </div>
                       </div> -->
-                      <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
+            <!-- <div class="col-sm-12 col-md-4 col-lg-3 p-3 ">
                         <div class="card card-section">
                           <div class="card-body">
                             <h5 class="card-title">IT21487934</h5>
@@ -924,7 +965,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           </div>
                         </div>
                       </div> -->
-                    </div>
+          </div>
 
     </header>
   </section>
@@ -947,83 +988,85 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                 </div>
               </div>
             </div>
-           <!-- Flutter -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">Flutter</h5>
-      <br />
-     <i class="fa-brands fa-flutter fa-5x"></i>
-      <br /><br />
-    </div>
-  </div>
-</div>
-           <!-- YoloV8< -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">YoloV8</h5>
-      <br />
-      <img src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922f38d60bd95205265_UltralyticsYOLO_mark_white.svg" alt="YOLOv8 Logo" style="width:80px; height:auto;" />
-      <br /><br />
-    </div>
-  </div>
-</div>
-           <!-- TensorFlow -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">TensorFlow</h5>
-      <br />
-      <i class="fa-solid fa-brain fa-5x"></i> <!-- Brain icon for AI and machine learning -->
-      <br /><br />
-    </div>
-  </div>
-</div>
-          <!-- NumPy -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">NumPy</h5>
-      <br />
-      <img src="./Images/numpy.png" style="width:80px; height:auto;" /> 
-      <br /><br />
-    </div>
-  </div>
-</div>
-<!-- Google Colab -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">Google Colab</h5>
-      <br />
-      <i class="fa-solid fa-laptop-code fa-5x"></i> <!-- Laptop code icon for coding environments -->
-      <br /><br />
-    </div>
-  </div>
-</div>
-<!-- Kaggle -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">Kaggle</h5>
-      <br />
-      <i class="fa-brands fa-kaggle fa-5x"></i> <!-- Kaggle brand icon -->
-      <br /><br />
-    </div>
-  </div>
-</div>
-<!-- Matplotlib -->
-<div class="col-sm-12 col-md-4 col-lg-3 p-3">
-  <div class="card card-section">
-    <div class="card-body">
-      <h5 class="card-title">Matplotlib</h5>
-      <br />
-      <i class="fa-solid fa-chart-bar fa-5x"></i> <!-- Bar chart icon for data visualization -->
-      <br /><br />
-    </div>
-  </div>
-</div>
+            <!-- Flutter -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Flutter</h5>
+                  <br />
+                  <i class="fa-brands fa-flutter fa-5x"></i>
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- YoloV8< -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">YoloV8</h5>
+                  <br />
+                  <img
+                    src="https://cdn.prod.website-files.com/646dd1f1a3703e451ba81ecc/64994922f38d60bd95205265_UltralyticsYOLO_mark_white.svg"
+                    alt="YOLOv8 Logo" style="width:80px; height:auto;" />
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- TensorFlow -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">TensorFlow</h5>
+                  <br />
+                  <i class="fa-solid fa-brain fa-5x"></i> <!-- Brain icon for AI and machine learning -->
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- NumPy -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">NumPy</h5>
+                  <br />
+                  <img src="./Images/numpy.png" style="width:80px; height:auto;" />
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- Google Colab -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Google Colab</h5>
+                  <br />
+                  <i class="fa-solid fa-laptop-code fa-5x"></i> <!-- Laptop code icon for coding environments -->
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- Kaggle -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Kaggle</h5>
+                  <br />
+                  <i class="fa-brands fa-kaggle fa-5x"></i> <!-- Kaggle brand icon -->
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+            <!-- Matplotlib -->
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+              <div class="card card-section">
+                <div class="card-body">
+                  <h5 class="card-title">Matplotlib</h5>
+                  <br />
+                  <i class="fa-solid fa-chart-bar fa-5x"></i> <!-- Bar chart icon for data visualization -->
+                  <br /><br />
+                </div>
+              </div>
+            </div>
     </header>
   </section>
 
@@ -1043,12 +1086,13 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <i class="fa-sharp fa-solid fa-trophy fa-5x"></i>
                   <br /><br />
                   <p class="card-text">
-                    Our research paper has been accepted to the 16th International IEEE Conference on Computing Communication and Networking Technologies (ICCCNT) 2025 (h5-index: 38)
+                    Our research paper has been accepted to the 16th International IEEE Conference on Computing
+                    Communication and Networking Technologies (ICCCNT) 2025 (h5-index: 38)
                   </p>
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -1079,7 +1123,7 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
             <div class="col-lg-3 p-3 d-flex align-items-stretch">
               <div class="card card-section">
                 <div class="card-body">
-                  <h5 class="card-title">Ms. Poojani Gunathilake  <br /> ( Co-Supervisor )</h5>
+                  <h5 class="card-title">Ms. Poojani Gunathilake <br /> ( Co-Supervisor )</h5>
                   <br />
                   <img src="./Images/Team/Poojani.jpg" class="team-member-image img-fluid rounded" />
                   <br /><br />
@@ -1092,9 +1136,9 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
             <div class="col-lg-3 p-3 d-flex align-items-stretch">
               <div class="card card-section">
                 <div class="card-body">
-                  <h5 class="card-title">Lakshima Silva  (Lead)</h5>
+                  <h5 class="card-title">Lakshima Silva <br /> (Lead)</h5>
                   <br />
-                  <img src="./Images/Team/Anuththara.jpeg" class="team-member-image img-fluid rounded" />
+                  <img src="./Images/Team/Lakshima.jpg" class="team-member-image img-fluid rounded" />
                   <br /><br />
                   <a href="https://www.linkedin.com/in/lakshima-silva-5b4914267/" class="social-icons"
                     target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
@@ -1110,8 +1154,8 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                   <br />
                   <img src="./Images/Team/Nishedi.jpg" class="team-member-image img-fluid rounded" />
                   <br /><br />
-                  <a href="https://www.linkedin.com/in/nishedi-fernando/" class="social-icons"
-                    target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                  <a href="https://www.linkedin.com/in/nishedi-fernando/" class="social-icons" target="_blank"><i
+                      class="fa-brands fa-linkedin fa-2x"></i></a>
                 </div>
               </div>
             </div>
@@ -1173,7 +1217,8 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                           <input type="text" class="form-control" id="exampleInputPassword1">
                         </div>
 
-                        <button type="submit" class="btn btn-primary" style="background-color: rgb(14, 71, 82); border-color: rgb(14, 71, 82);">Submit</button>
+                        <button type="submit" class="btn btn-primary"
+                          style="background-color: rgb(14, 71, 82); border-color: rgb(14, 71, 82);">Submit</button>
                       </form>
                     </div>
                     <div class="col-md-6">
@@ -1184,14 +1229,14 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
                       <p class="card-text">
                         +94 xx xxx xxxx
                       </p>
-                                 </div>
-    
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </header>
   </section>
 
@@ -1235,7 +1280,8 @@ Current activity trackers rarely provide personalized, real-time exercise recomm
             <div class="input-group mb-3">
               <input class="form-control" type="text" placeholder="Recipient's username"
                 aria-label="Recipient's username" aria-describedby="button-addon2" />
-              <button class="btn btn-primary" id="button-addon2" type="button" style="background-color: rgb(14, 71, 82); border-color: rgb(14, 71, 82);">
+              <button class="btn btn-primary" id="button-addon2" type="button"
+                style="background-color: rgb(14, 71, 82); border-color: rgb(14, 71, 82);">
                 <i class="fas fa-paper-plane"></i>
               </button>
             </div>
